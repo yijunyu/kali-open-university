@@ -15,3 +15,6 @@ RUN apt-get install -y kali-defaults
 RUN apt-get install -y kali-menu
 RUN apt-get install -y kali-debtags
 RUN apt-get install -y kali-archive-keyring
+RUN apt-get install -y firmware-b43legacy-installer
+RUN apt-get install -y firmware-b43-installer
+RUN apt-get install -y guymager
